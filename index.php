@@ -17,6 +17,7 @@
     <!-- php echo to print the html to the page -->
     <?php  
       echo "<h1>Movie Age Limits</h1>";
+      echo '<img src="./images/orange.jpg" alt="orange" width="600" height="300"/>';
       echo "<h3>Enter you age:</h3>";
     ?>
     <br>

@@ -1,6 +1,13 @@
 <?php
   // gets user age from text-field
   $user_age = $_POST["age"];
+
+  // Check if user input is empty
+  if ($user_age === "") {
+    echo "Please enter your age.";
+    return;
+  }
+
   // if statement to see if user age is above certain age limits for different movie ratings
   if ($user_age >= 100) {
     echo "Bruv you are a dinosaur, good luck getting out of that chair my boi. L R.I.P";
